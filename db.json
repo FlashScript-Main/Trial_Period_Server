@@ -3699,24 +3699,24 @@
   "users": [
     {
       "id": 1,
-      "name": "Ali",
+      "username": "Ali",
       "email": "ali@gmail.com",
       "password": "12345678",
-      "auth-token": "61cd2e24-ad18-4c2d-9aa0-caa0beef37a4"
+      "authToken": "61cd2e24-ad18-4c2d-9aa0-caa0beef37a4"
     },
     {
       "id": 2,
-      "name": "Sina",
+      "username": "Sina",
       "email": "sina@gmail.com",
       "password": "abcd1234",
-      "auth-token": "556171ca-a4c6-4964-962c-0bf4607eb4aa"
+      "authToken": "556171ca-a4c6-4964-962c-0bf4607eb4aa"
     },
     {
       "id": 3,
-      "name": "Poriya",
+      "username": "Poriya",
       "email": "poriya@gmail.com",
       "password": "password",
-      "auth-token": "2f9df708-8be9-4a80-b754-109a1956ac4f"
+      "authToken": "2f9df708-8be9-4a80-b754-109a1956ac4f"
     }
   ],
   "posts": [
