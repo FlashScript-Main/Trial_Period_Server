@@ -1,24 +1,17 @@
-// JSON Server module
-const jsonServer = require("json-server");
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const jsonServer = require('json-server');
+const cors = require('cors');
+const path = require('path');
 
-// Make sure to use the default middleware
+const server = jsonServer.create();
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
 
+server.use(cors());
 server.use(middlewares);
-// Add this before server.use(router)
-server.use(
- // Add custom route here if needed
- jsonServer.rewriter({
-  "/*": "/$1",
- })
-);
 server.use(router);
-// Listen to port
-server.listen(3000, () => {
- console.log("JSON Server is running");
-});
 
-// Export the Server API
-module.exports = server;
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`);
+});
