@@ -3755,6 +3755,30 @@
       "category": "education",
       "icon": "GraduationCap",
       "color": "green"
+    },
+    {
+      "id": 4,
+      "titleEn": "The Rise of Plant-Based Diets",
+      "titleFa": "ظهور رژیم‌های غذایی گیاهی",
+      "descriptionEn": "Exploring the health and environmental benefits of plant-based eating",
+      "descriptionFa": "بررسی مزایای سلامتی و زیست‌محیطی تغذیه گیاهی",
+      "contentEn": "Plant-based diets have gained significant popularity in recent years, driven by health concerns, environmental awareness, and ethical considerations. This article delves into the science behind plant-based nutrition, its potential health benefits, and its impact on the environment. We'll also discuss common misconceptions, provide tips for transitioning to a plant-based diet, and explore how this trend is influencing the food industry.",
+      "contentFa": "رژیم‌های غذایی گیاهی در سال‌های اخیر به دلیل نگرانی‌های سلامتی، آگاهی زیست‌محیطی و ملاحظات اخلاقی محبوبیت قابل توجهی پیدا کرده‌اند. این مقاله به علم پشت تغذیه گیاهی، مزایای بالقوه سلامتی آن و تأثیر آن بر محیط زیست می‌پردازد. ما همچنین درباره سوء تفاهم‌های رایج بحث می‌کنیم، نکاتی برای گذار به رژیم غذایی گیاهی ارائه می‌دهیم و بررسی می‌کنیم که چگونه این روند در حال تأثیرگذاری بر صنعت غذایی است.",
+      "category": "health",
+      "icon": "Cross",
+      "color": "purple"
+    },
+    {
+      "id": 5,
+      "titleEn": "The Electric Cars",
+      "titleFa": "خودروهای الکتریکی",
+      "descriptionEn": "A deep dive into the future of transportation and sustainability",
+      "descriptionFa": "نگاهی عمیق به آینده حمل‌ونقل و پایداری",
+      "contentEn": "Electric cars are at the forefront of a revolution in transportation. With advancements in battery technology, increasing adoption rates, and the push for sustainability, the automotive industry is changing rapidly. This article discusses the benefits of electric vehicles, challenges in infrastructure, and the impact on the environment. We’ll also explore the future outlook for electric mobility and how it could reshape our cities.",
+      "contentFa": "خودروهای الکتریکی در خط مقدم انقلابی در حمل‌ونقل قرار دارند. با پیشرفت در فناوری باتری، افزایش نرخ پذیرش و فشار برای پایداری، صنعت خودروسازی به سرعت در حال تغییر است. این مقاله به مزایای خودروهای الکتریکی، چالش‌های زیرساختی و تأثیر آنها بر محیط‌زیست می‌پردازد. همچنین به چشم‌انداز آینده تحرک الکتریکی و چگونگی تغییر شکل شهرهای ما خواهیم پرداخت.",
+      "category": "technology",
+      "icon": "Cpu",
+      "color": "yellow"
     }
   ]
 }
